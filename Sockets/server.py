@@ -3,7 +3,7 @@ import socket
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM) 
 
 Host = '192.168.0.222'
-Port = 6999
+Port = 9090
 
 server.bind((Host, Port))
 
@@ -18,5 +18,5 @@ while True:
     communication_socket.close()
     print(f"Connection with {address} has ended!")
 
-    
+
 
