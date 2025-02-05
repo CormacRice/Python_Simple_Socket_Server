@@ -8,5 +8,5 @@ socket.connect((Host, Port))
 
 socket.send("Hello World!".encode('ascii'))
 
-print(socket.receive(1024))
+print(socket.recv(1024))
 
