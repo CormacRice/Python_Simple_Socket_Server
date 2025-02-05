@@ -2,7 +2,7 @@ import socket
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM) 
 
-Host = '192.168.0.222'
+Host = 'hostaddress'
 Port = 9090
 
 server.bind((Host, Port))
