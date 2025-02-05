@@ -1,6 +1,6 @@
 import socket
 
-Host = '192.168.0.222'
+Host = 'hostaddress'
 Port =  9090
 
 socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
